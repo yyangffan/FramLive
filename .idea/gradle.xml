@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/XzbLib" />
+            <option value="$PROJECT_DIR$/XzbLib/tuiaudioeffect" />
+            <option value="$PROJECT_DIR$/XzbLib/tuibarrage" />
+            <option value="$PROJECT_DIR$/XzbLib/tuibeauty" />
+            <option value="$PROJECT_DIR$/XzbLib/tuicore" />
+            <option value="$PROJECT_DIR$/XzbLib/tuigift" />
+            <option value="$PROJECT_DIR$/XzbLib/tuiplayer" />
+            <option value="$PROJECT_DIR$/XzbLib/tuipusher" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/basic" />
+            <option value="$PROJECT_DIR$/debug" />
+            <option value="$PROJECT_DIR$/login" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

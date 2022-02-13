@@ -1,0 +1,16 @@
+rootProject.name = "FramLive"
+include ':app'
+
+include ':basic'
+include ':debug'
+include ':login'
+
+
+include ':XzbLib:tuicore'
+include ':XzbLib:tuipusher'
+include ':XzbLib:tuiplayer'
+include ':XzbLib:tuibeauty'
+include ':XzbLib:tuibarrage'
+include ':XzbLib:tuiaudioeffect'
+include ':XzbLib:tuigift'
+
