@@ -1,4 +1,4 @@
-package com.tencent.liteav.debug;
+package com.tyxh.framlive.base;
 
 import android.util.Base64;
 
@@ -32,7 +32,7 @@ public class GenerateGlobalConfig {
      * License Management View (https://console.cloud.tencent.com/live/license)
      * License URL of your application
      */
-    public static final String LICENSEURL = "http://license.vod2.myqcloud.com/license/v1/b0bad46a4f678c3fb63e229c6633da58/TXLiveSDK.licence";
+    public static final String LICENSEURL = "https://license.vod2.myqcloud.com/license/v2/1305900304_1/v_cube.license";
 
     /**
      * 腾讯云直播license管理页面(https://console.cloud.tencent.com/live/license)
@@ -55,14 +55,14 @@ public class GenerateGlobalConfig {
      *
      * 腾讯云域名管理页面：https://console.cloud.tencent.com/live/domainmanage
      */
-    public static final String PUSH_DOMAIN = "141536.livepush.myqcloud.com";
+    public static final String PUSH_DOMAIN = "bkpush.bkxinli.com.tlivepush.com";
 
     /**
      * 配置的播放域名
      *
      * 腾讯云域名管理页面：https://console.cloud.tencent.com/live/domainmanage
      */
-    public static final String PLAY_DOMAIN = "bklive.aininongmu.com.tlivecdn.com";
+    public static final String PLAY_DOMAIN = "bkpull.bkxinli.com.tlivecdn.com";
     /**
      * 腾讯云 SDKAppId，需要替换为您自己账号下的 SDKAppId。
      *

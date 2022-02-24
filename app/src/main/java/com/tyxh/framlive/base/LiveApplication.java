@@ -7,13 +7,16 @@ import android.net.http.HttpResponseCache;
 import android.util.Log;
 
 
+import com.tencent.imsdk.v2.V2TIMManager;
+import com.tencent.imsdk.v2.V2TIMSDKConfig;
+import com.tencent.rtmp.TXLiveBase;
+
 import java.io.File;
 import java.io.IOException;
 
-class LiveApplication extends Application {
+public class LiveApplication extends Application {
 
     private static volatile LiveApplication instance;
-
 
     @Override
     public void onCreate() {
@@ -26,9 +29,15 @@ class LiveApplication extends Application {
 
     }
 
+    public static LiveApplication getInstance() {
+        return instance;
+    }
+
     public void init() {
-
-
+        TXLiveBase.getInstance().setLicence(this,Constant.LICENCEURL,Constant.LICENCEKEY);
+        V2TIMSDKConfig config = new V2TIMSDKConfig();
+        config.setLogLevel(V2TIMSDKConfig.V2TIM_LOG_DEBUG);
+        V2TIMManager.getInstance().initSDK(this, Constant.SDKAPPID, config);
     }
 
     /*初始化网络框架*/

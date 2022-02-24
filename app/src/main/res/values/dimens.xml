@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--主界面底部栏相关大小配置-->
+    <dimen name="tab_icon_width">@dimen/dp_35</dimen>
+    <dimen name="tab_icon_height">@dimen/dp_35</dimen>
+    <dimen name="red_note_widtheight">@dimen/dp_6</dimen>
+
+</resources>

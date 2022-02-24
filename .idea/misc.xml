@@ -3,7 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/live_latest/live/XzbLib/tuipusher/src/main/res/layout/tuipusher_pusher_view.xml" value="0.35885416666666664" />
+        <entry key="..\:/live_latest/live/app/src/main/res/drawable/app_bg_audience_number_text.xml" value="0.390625" />
+        <entry key="..\:/live_latest/live/app/src/main/res/drawable/app_bg_confirm_dialog.xml" value="0.390625" />
+        <entry key="..\:/live_latest/live/app/src/main/res/drawable/app_bg_live_room_invite_btn.xml" value="0.390625" />
+        <entry key="..\:/live_latest/live/app/src/main/res/drawable/app_liveshow_item_dot.xml" value="0.390625" />
+        <entry key="..\:/live_latest/live/app/src/main/res/drawable/app_pusher_info_background.xml" value="0.390625" />
+        <entry key="..\:/live_latest/live/app/src/main/res/drawable/bg_circle_red.xml" value="0.390625" />
+        <entry key="..\:/live_latest/live/app/src/main/res/drawable/bg_grad.xml" value="0.340625" />
+        <entry key="..\:/live_latest/live/app/src/main/res/layout/activity_live_anchor.xml" value="0.34427083333333336" />
+        <entry key="..\:/live_latest/live/app/src/main/res/layout/activity_live_audience.xml" value="0.37447916666666664" />
         <entry key="..\:/live_latest/live/app/src/main/res/layout/activity_main.xml" value="0.37447916666666664" />
+        <entry key="..\:/live_latest/live/app/src/main/res/layout/app_dialog_confirm.xml" value="0.3687179487179487" />
+        <entry key="..\:/live_latest/live/app/src/main/res/layout/app_include_live_audience_list.xml" value="0.37447916666666664" />
+        <entry key="..\:/live_latest/live/app/src/main/res/layout/app_include_live_pusher_info.xml" value="0.37447916666666664" />
+        <entry key="..\:/live_latest/live/app/src/main/res/layout/app_show_anchor_function_view.xml" value="0.37447916666666664" />
+        <entry key="..\:/live_latest/live/app/src/main/res/layout/fragment_home.xml" value="0.37447916666666664" />
+        <entry key="..\:/live_latest/live/app/src/main/res/layout/fragment_mine.xml" value="0.41397849462365593" />
+        <entry key="..\:/live_latest/live/app/src/main/res/layout/tab_container_view.xml" value="0.3687179487179487" />
       </map>
     </option>
   </component>

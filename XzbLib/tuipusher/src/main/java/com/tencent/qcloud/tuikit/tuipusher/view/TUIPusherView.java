@@ -432,10 +432,10 @@ public class TUIPusherView extends FrameLayout implements ITUIPusherContract.ITU
      */
     public void start(String url) {
         TXCLog.d(TAG, "start url:" + url);
-        if (!TUILogin.isUserLogined()) {
-            ToastUtil.toastShortMessage(getContext().getString(R.string.tuipusher_please_login));
-            return;
-        }
+//        if (!TUILogin.isUserLogined()) {
+//            ToastUtil.toastShortMessage(getContext().getString(R.string.tuipusher_please_login));
+//            return;
+//        }
         if (url.startsWith(LinkURLUtils.RTMP)) {
             mTUIPusherPresenter = new TUIPusherPresenter(this, getContext(), LinkURLUtils.PushType.RTMP);
         } else if (url.startsWith(LinkURLUtils.TRTC)) {
