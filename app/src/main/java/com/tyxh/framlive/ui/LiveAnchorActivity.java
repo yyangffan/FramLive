@@ -36,7 +36,7 @@ public class LiveAnchorActivity extends LiveBaseActivity implements TUIPusherVie
     ShowAnchorFunctionView mShowAnchorFunctionView;
     @BindView(R.id.anchor_pusher_view)
     TUIPusherView mTUIPusherView;
-    private String roomId = "1024";//userId
+    private String roomId = "5";//userId
 
     @Override
     public int getContentLayoutId() {
@@ -100,7 +100,7 @@ public class LiveAnchorActivity extends LiveBaseActivity implements TUIPusherVie
             public void onCallback(int code, String msg) {
                 if(code == 0) {
                     mShowAnchorFunctionView.startRecordAnimation();
-                    mTUIPusherView.setGroupId("1024");
+                    mTUIPusherView.setGroupId(roomId);
                     startTimer();
                     callback.response(true);
                 }

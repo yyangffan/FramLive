@@ -54,7 +54,7 @@ public class URLUtils {
         String playUrl = "";
         if (type == PlayType.RTC) {
             playUrl = "trtc://cloud.tencent.com/play/" + streamId + "?sdkappid=" +  Constant.SDKAPPID + "&userid="
-                    + "23" + "&usersig=" + GenerateGlobalConfig.genTestUserSig("23");
+                    + "7" + "&usersig=" + GenerateGlobalConfig.genTestUserSig("7");
         } else if (type == PlayType.RTMP) {
             playUrl = HTTP + GenerateGlobalConfig.PLAY_DOMAIN + File.separator + APP_NAME + File.separator + streamId
                     + ".flv";

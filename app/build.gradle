@@ -44,16 +44,12 @@ dependencies {
     implementation 'com.github.yyangffan:yfslibrary:1.2'
     implementation 'com.jakewharton:butterknife:10.2.3'
     annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.3'
-//    implementation 'com.github.LuckSiege.PictureSelector:picture_library:v2.6.0'
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
     implementation 'com.alibaba:fastjson:1.2.73'
     implementation 'com.alibaba:fastjson:1.1.72.android'
-//     implementation 'com.ljy.ring:devring:1.2.0'
     implementation  'io.github.scwang90:refresh-layout-kernel:2.0.5'
     implementation  'io.github.scwang90:refresh-header-classics:2.0.5'    //经典刷新头
     implementation  'io.github.scwang90:refresh-footer-classics:2.0.5'    //经典加载
-    /*新版小直播的登录类库 若小直播demo有更新时该库可不更新*/
-
     /*如下是新版小直播的一些类库  若小直播demo有更新时以下类库可更新替换*/
     implementation project(':XzbLib:tuicore')
     implementation project(':XzbLib:tuipusher')

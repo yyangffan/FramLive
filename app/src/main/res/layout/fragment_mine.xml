@@ -23,7 +23,7 @@
             android:layout_height="wrap_content"
             android:padding="@dimen/dp_40"
             android:gravity="center"
-            android:text="我 的 "
+            android:text="看直播 "
             android:background="@drawable/bg_grad"
             android:textColor="@color/red"
             android:textStyle="bold|italic"

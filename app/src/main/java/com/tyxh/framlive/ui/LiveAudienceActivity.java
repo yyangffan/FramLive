@@ -31,8 +31,8 @@ public class LiveAudienceActivity extends LiveBaseActivity {
     LinearLayout mLinearLayout;
 
     TUIPlayerView mTUIPlayerView;
-    private String mRoomId = "1024";
-    private String userId = "23";
+    private String mRoomId = "5";
+    private String userId = "7";
 
     @Override
     public int getContentLayoutId() {
